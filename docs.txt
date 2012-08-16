@@ -111,18 +111,12 @@ lib_STRING.ahk
   - String.toLower()
   - String.fmt(args*)
   - String.parse(s)
-  - String.match("^%%")
 
 lib_SYNK.ahk
   - SYNK_filecompare(fsource, fdest)
   - SYNK_error(err, errText, byRef e)
   - SYNK_countfilesizes(source)
   - SYNK_dirsynk(source, dest, bak, move = 0, prog = 600, moveExceedings = 0, dateBak = 1, compare = "SYNK_filecompare")
-  - SYNK_error(ErrorLevel, "Impossibile creare la directory di backup`n" bak, e)
-  - SYNK_error(ErrorLevel, "Errore nello spostamento`nda: " fdest "`na: " fbak, e)
-  - SYNK_error(ErrorLevel, A_LastError, e)
-  - SYNK_error(ErrorLevel, "Errore nella copia del file`nda: " fsource "`na: " fdest, e)
-  - SYNK_error(ErrorLevel, "Errore nel leggere le dimesioni di`n" fsource, e)
   - SYNK_stub()
 
 lib_TRAYTIP.ahk
@@ -134,7 +128,6 @@ lib_WINDOW.ahk
   - Window.__New(hwnd)
   - Window.__Get(aname)
   - Window.getControls()
-  - Window.split("`n")
   - Window.getPos()
   - Window.setPos( x = "", y = "", w = "", h = "" )
 

@@ -4,7 +4,7 @@ import sys
 import re
 import os
 
-pat_function = re.compile(r'(\w+\([^)]*\))\s*{')
+pat_function = re.compile(r'\n[ ]*(\w+\([^)]*\))\s*{')
 pat_class = re.compile(r'class (\w+)')
 
 format_title = "{1}"
