@@ -4,14 +4,14 @@
 		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
 		<title>{{ page.title }}</title>
 		
-		<link rel='stylesheet' type='text/css' href='{{ site.url }}/css/default.css'/>
-		<link rel='stylesheet' type='text/css' href='{{ site.url }}/css/syntax.css'/>
+        <link rel='stylesheet' type='text/css' href='{{ site.url }}/{{ site.baseurl }}/css/default.css'/>
+        <link rel='stylesheet' type='text/css' href='{{ site.url }}/{{ site.baseurl  }}/css/syntax.css'/>
 		<!--[if IE]>
 			<link rel='stylesheet' type='text/css' href='{{ site.url }}/css/IE.css'/>
 		<![endif]-->
 
 		{% for css in page.css_files %}
-			<link rel='stylesheet' type='text/css' href='{{ site.url }}/css/{{ css }}.css'/>
+        <link rel='stylesheet' type='text/css' href='{{ site.url }}/{{ site.baseurl }}/css/{{ css }}.css'/>
 		{% endfor %}
 	</head>
 	<body>
