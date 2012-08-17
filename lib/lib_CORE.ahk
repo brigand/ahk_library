@@ -38,7 +38,7 @@ class Core {
         if (isobject(arr)){
             for k, v in arr {
                 if ( v == val ){
-                    return A_index
+                    return k
                 }
             }
         }
