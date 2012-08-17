@@ -12,7 +12,6 @@ scripts/autokube
 scripts/log
 scripts/tmp
 scripts/images
-docs/
 *.tmp
 *.bak
 *.swp
@@ -170,3 +169,7 @@ pip-log.txt
 
 # VIM Backups
 *~
+
+# Jekyll
+_site
+
