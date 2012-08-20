@@ -1,5 +1,5 @@
             {% unless post.url contains 'index.html' %}
             <a class="listingElement" href="/{{ site.baseurl }}/{{ post.url }}" title="{{ post.title }}">
-                        <h4 class="listingElement">{{ cat }}.{{ post.title }}</h4>
+                        <h4 class="listingElement">{{ post.title }}</h4>
                     </a>
             {% endunless %}
