@@ -9,6 +9,7 @@ SetTitleMatchMode, 2
 
 #include <lib_STRING>
 #include <lib_MATH>
+#Include <lib_FUNCTIONS>
 
 ; Universal basic functions that should be accessible anywhere
 class Core {
